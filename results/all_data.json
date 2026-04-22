@@ -1,0 +1,98 @@
+[
+  {
+    "label": "Ours (rot180_img1_img2)",
+    "mse_view_a": 0.039,
+    "mse_view_b": 0.031,
+    "ssim_view_a": 0.614,
+    "ssim_view_b": 0.499,
+    "balance_ratio": 1.242
+  },
+  {
+    "label": "Naive (rot180_img1_img2)",
+    "mse_view_a": 0.028,
+    "mse_view_b": 0.028,
+    "ssim_view_a": 0.767,
+    "ssim_view_b": 0.655,
+    "balance_ratio": 1.0
+  },
+  {
+    "label": "Ours (vflip_img1_img2)",
+    "mse_view_a": 0.038,
+    "mse_view_b": 0.031,
+    "ssim_view_a": 0.62,
+    "ssim_view_b": 0.499,
+    "balance_ratio": 1.255
+  },
+  {
+    "label": "Naive (vflip_img1_img2)",
+    "mse_view_a": 0.027,
+    "mse_view_b": 0.027,
+    "ssim_view_a": 0.773,
+    "ssim_view_b": 0.663,
+    "balance_ratio": 1.0
+  },
+  {
+    "label": "Ours (hflip_img1_img2)",
+    "mse_view_a": 0.033,
+    "mse_view_b": 0.026,
+    "ssim_view_a": 0.619,
+    "ssim_view_b": 0.509,
+    "balance_ratio": 1.252
+  },
+  {
+    "label": "Naive (hflip_img1_img2)",
+    "mse_view_a": 0.022,
+    "mse_view_b": 0.022,
+    "ssim_view_a": 0.78,
+    "ssim_view_b": 0.658,
+    "balance_ratio": 1.0
+  },
+  {
+    "label": "Ours (rot180_giraffe_penguin)",
+    "mse_view_a": 0.026,
+    "mse_view_b": 0.025,
+    "ssim_view_a": 0.603,
+    "ssim_view_b": 0.541,
+    "balance_ratio": 1.063
+  },
+  {
+    "label": "Naive (rot180_giraffe_penguin)",
+    "mse_view_a": 0.015,
+    "mse_view_b": 0.015,
+    "ssim_view_a": 0.789,
+    "ssim_view_b": 0.674,
+    "balance_ratio": 1.0
+  },
+  {
+    "label": "Ours (vflip_giraffe_penguin)",
+    "mse_view_a": 0.027,
+    "mse_view_b": 0.024,
+    "ssim_view_a": 0.593,
+    "ssim_view_b": 0.542,
+    "balance_ratio": 1.125
+  },
+  {
+    "label": "Naive (vflip_giraffe_penguin)",
+    "mse_view_a": 0.015,
+    "mse_view_b": 0.015,
+    "ssim_view_a": 0.782,
+    "ssim_view_b": 0.669,
+    "balance_ratio": 1.0
+  },
+  {
+    "label": "Ours (hflip_giraffe_penguin)",
+    "mse_view_a": 0.027,
+    "mse_view_b": 0.026,
+    "ssim_view_a": 0.602,
+    "ssim_view_b": 0.534,
+    "balance_ratio": 1.04
+  },
+  {
+    "label": "Naive (hflip_giraffe_penguin)",
+    "mse_view_a": 0.017,
+    "mse_view_b": 0.017,
+    "ssim_view_a": 0.77,
+    "ssim_view_b": 0.659,
+    "balance_ratio": 1.0
+  }
+]
