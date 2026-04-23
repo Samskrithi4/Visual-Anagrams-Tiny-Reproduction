@@ -141,6 +141,7 @@ def run_anagram(t_a: torch.Tensor, t_b: torch.Tensor, view_b, steps: int=1000, l
     """
 
     # choose middle to be safe starting point, optimize till convergence
+    torch.manual_seed(42)
     anagram   = nn.Parameter(torch.rand_like(t_a) * 0.5 + 0.25)
     optimizer = optim.Adam([anagram], lr=lr)
     scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=steps)
@@ -376,7 +377,7 @@ def main():
     # images you want to compare or transform
     image_pairs = [
         # ("face.png", "mountain.png"),
-        ("img1.jpg", "img2.jpg"),
+        ("fire.jpg", "man.jpg"),
         ("giraffe.jpg", "penguin.jpg"),
     ]
 
